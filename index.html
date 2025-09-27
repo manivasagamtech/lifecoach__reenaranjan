@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reena Ranjan - Teen Parenting Coach & Life Coach</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Reena Ranjan</h2>
+                <p>Life Coach</p>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#testimonials" class="nav-link">Testimonials</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title animate-fade-in">Transform Teen-Parent Relationships from Conflict to Connection</h1>
+                    <p class="hero-subtitle animate-fade-in">ICH Certified Life & Relationship Coach helping moms raise confident, happy & respectful teens 🌟 From conflict → connection</p>
+                    <button class="cta-button animate-fade-in" onclick="scrollToSection('contact')">
+                        <i class="fas fa-calendar-alt"></i>
+                        Book Your 1:1 Guidance Session
+                    </button>
+                </div>
+                <div class="hero-image">
+                    <img src="https://imagizer.imageshack.com/img923/7517/E1PPGU.jpg" alt="Reena Ranjan - Teen Parenting Coach" class="coach-photo">
+                </div>
+            </div>
+        </div>
+        <div class="hero-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Reena</h2>
+                <p>Transforming parent-teen relationships with compassion and expertise</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-bio">
+                        <h3>ICH Certified Life & Relationship Coach</h3>
+                        <p>With a deep understanding of teenage psychology and family dynamics, I specialize in helping mothers navigate the challenging yet rewarding journey of raising teenagers. My approach focuses on transforming conflict into meaningful connection through evidence-based coaching techniques.</p>
+                        
+                        <p>I believe every teen has the potential to be confident, respectful, and happy when given the right guidance and understanding. My mission is to empower parents with the tools and strategies they need to build stronger, more loving relationships with their teenagers.</p>
+                        
+                        <div class="certification-badge">
+                            <i class="fas fa-certificate"></i>
+                            <span>ICH Certified Coach</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="5">0</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="100">0</div>
+                        <div class="stat-label">Happy Families</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="500">0</div>
+                        <div class="stat-label">Sessions Completed</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Coaching Services</h2>
+                <p>Comprehensive support for your parenting journey</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>1:1 Teen Parenting Guidance</h3>
+                    <p>Personalized coaching sessions to help you navigate the challenges of parenting teenagers with confidence and compassion.</p>
+                    <button class="service-btn">Learn More</button>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Life & Relationship Coaching</h3>
+                    <p>Transform your relationships and personal growth journey with expert guidance and support.</p>
+                    <button class="service-btn">Learn More</button>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Parent-Teen Conflict Resolution</h3>
+                    <p>Learn effective strategies to resolve conflicts and build stronger connections with your teenager.</p>
+                    <button class="service-btn">Learn More</button>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Teen Confidence Building Programs</h3>
+                    <p>Specialized programs designed to help your teen develop self-confidence and emotional resilience.</p>
+                    <button class="service-btn">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Parents Say</h2>
+                <p>Real stories of transformation and connection</p>
+            </div>
+            <div class="testimonials-content">
+                <div class="testimonial-carousel">
+                    <div class="testimonial-track" id="testimonial-track">
+                        <div class="testimonial-card active">
+                            <div class="testimonial-content">
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p>"Reena helped me transform my relationship with my 16-year-old daughter. We went from constant arguments to meaningful conversations. Highly recommend her guidance!"</p>
+                                <div class="testimonial-author">
+                                    <strong>Priya Sharma</strong>
+                                    <span>Mumbai</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p>"The conflict resolution techniques Reena taught me have been life-changing. My son is now more respectful and our home is much more peaceful."</p>
+                                <div class="testimonial-author">
+                                    <strong>Anjali Patel</strong>
+                                    <span>Delhi</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p>"As a single mom, I was struggling with my teenage son. Reena's coaching gave me the tools and confidence I needed. Forever grateful!"</p>
+                                <div class="testimonial-author">
+                                    <strong>Meera Gupta</strong>
+                                    <span>Bangalore</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p>"Reena's approach is so gentle yet effective. She helped both me and my daughter understand each other better. Amazing results!"</p>
+                                <div class="testimonial-author">
+                                    <strong>Kavitha Reddy</strong>
+                                    <span>Chennai</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-nav">
+                        <button class="nav-dot active" onclick="currentSlide(1)"></button>
+                        <button class="nav-dot" onclick="currentSlide(2)"></button>
+                        <button class="nav-dot" onclick="currentSlide(3)"></button>
+                        <button class="nav-dot" onclick="currentSlide(4)"></button>
+                    </div>
+                </div>
+                <div class="video-testimonials">
+                    <div class="video-placeholder">
+                        <i class="fas fa-play-circle"></i>
+                        <p>Video testimonials coming soon!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <p>Ready to transform your relationship with your teen?</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-form-container">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            <label for="name">Name *</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            <label for="email">Email *</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+                            <label for="phone">Phone *</label>
+                        </div>
+                        <div class="form-group">
+                            <select id="coaching-area" name="coaching-area" required>
+                                <option value="">Select Preferred Coaching Area</option>
+                                <option value="teen-parenting">1:1 Teen Parenting Guidance</option>
+                                <option value="life-coaching">Life & Relationship Coaching</option>
+                                <option value="conflict-resolution">Parent-Teen Conflict Resolution</option>
+                                <option value="confidence-building">Teen Confidence Building</option>
+                            </select>
+                            <label for="coaching-area">Coaching Area *</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Tell me about your situation and how I can help..." rows="5"></textarea>
+                            <label for="message">Message</label>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                    <div id="form-success" class="form-success hidden">
+                        <i class="fas fa-check-circle"></i>
+                        <h3>Message Sent Successfully!</h3>
+                        <p>Thank you for reaching out. I'll get back to you within 24 hours.</p>
+                    </div>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="method-details">
+                                <h4>Email Me</h4>
+                                <p>Get personalized guidance via email</p>
+                            </div>
+                        </div>
+                        <div class="contact-method whatsapp-method">
+                            <div class="method-icon">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <div class="method-details">
+                                <h4>WhatsApp Chat</h4>
+                                <p>Quick questions? Let's chat on WhatsApp</p>
+                                <a href="https://chat.whatsapp.com/FD31UcumY2M5phSrFcGtqQ?mode=ems_copy_t" target="_blank" class="whatsapp-btn">
+                                    <i class="fab fa-whatsapp"></i>
+                                    Start WhatsApp Chat
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <h3>Reena Ranjan</h3>
+                        <p>ICH Certified Life & Relationship Coach</p>
+                        <p class="tagline">Helping moms raise confident, happy & respectful teens 🌟</p>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect With Me</h4>
+                    <div class="social-links">
+                        <a href="https://instagram.com/lifecoach__reenaranjan" target="_blank" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                            @lifecoach__reenaranjan
+                        </a>
+                        <a href="https://chat.whatsapp.com/FD31UcumY2M5phSrFcGtqQ?mode=ems_copy_t" target="_blank" class="social-link">
+                            <i class="fab fa-whatsapp"></i>
+                            WhatsApp Group
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-disclaimer">
+                    <p><strong>Professional Disclaimer:</strong> Coaching services are not a substitute for professional medical, psychological, or psychiatric treatment. Results may vary based on individual circumstances and commitment to the coaching process.</p>
+                </div>
+                <div class="footer-copyright">
+                    <p>&copy; 2024 Reena Ranjan. All rights reserved. | Life & Relationship Coach</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
